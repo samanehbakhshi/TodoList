@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <div class="header-box">
+        <p class="header-title">WORK TO-DOS</p>
+        <p class="header-howuse">
+          Enter text into the input field to add items to your list.
+        </p>
+        <p class="header-howcomplete">Click the item to mark it as complete.</p>
+        <p class="header-howremove">
+          Click the "X" to remove the item from your list.
+        </p>
+      </div>
+      <div class="input-box">
+        <input type="text" class="input" placeholder="New item..." />
+        <button href="#" class="btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="{1.5}"
+            stroke="currentColor"
+            class="icon"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
+            />
+          </svg>
+        </button>
+      </div>
+      <ul class="todos">
+        <!-- <li class="todo-item">item1 <button class="delete">X</button></li> -->
+      </ul>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
